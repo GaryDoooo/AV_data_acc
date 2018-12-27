@@ -1,6 +1,7 @@
 # AV_data_acc
 Accumulate Alpha vantage data 5min for selected tickers
 
+```
 usage: acc1.py [-h] [--ticker-csv TICKER_CSV] [--interval INTERVAL]
                [--readsize READSIZE] [--filepath FILEPATH]
                [--fileprefix FILEPREFIX]
@@ -16,3 +17,4 @@ optional arguments:
   --filepath FILEPATH   The stock data store dir.
   --fileprefix FILEPREFIX
                         The filename prefix before the the ticker name.
+```

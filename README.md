@@ -1,5 +1,5 @@
 # AV_data_acc
-Accumulate Alpha vantage data 5min for selected tickers
+Accumulate Alpha vantage data 5min for selected tickers. By default: 5min, compact, and save to data dir.
 
 ```
 usage: acc1.py [-h] [--ticker-csv TICKER_CSV] [--interval INTERVAL]

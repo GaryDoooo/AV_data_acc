@@ -5,19 +5,11 @@ FAS,3x bull finance and bank
 MIDU,3x bull mid size 
 AAPL,apple
 GOOG,google
-^GSPC,S&P 500
-^DJI,Dow Jones Industrial Average (^DJI)
 ^TNX,CBOE Interest Rate 10 Year T No (^TNX)
 MSFT,Microsoft
-^VXGOG,CBOE VIX on Google
-^VXAPL,CBOE VIX on Apple
-^VXGS,Cboe Equity VIX on Goldman Sachs
-^VXAZN,Cboe Equity VIX on Amazon
-^VXIBM,Cboe Equity VIX on IBM
 GS,The Goldman Sachs Group
 IBM,International Business Machines Corporation
 FB,Facebook
-^TYVIX,VXTY-Cboe/CBOT 10-Year U.S. Treasury Note Volatility Index
 SPY,SPDR S&P 500 ETF Trust
 GOOGL,Alphabet Inc. (GOOGL)
 JPM,JPMorgan Chase 
@@ -53,7 +45,6 @@ USO,United States Oil
 DBC,Invesco DB Commodity Tracking (DBC)
 GSG,iShares S&P GSCI Commodity-Indexed Trust (GSG)
 VTI,Vanguard Total Stock Market ETF (VTI)
-^RUT,Russell 2000 (^RUT)
 FDN,First Trust Dow Jones Internet ETF (FDN)
 XLV,Health Care Select Sector SPDR ETF (XLV
 IBB,iShares Nasdaq Biotechnology ETF (IBB
@@ -65,4 +56,22 @@ XLY,Consumer Discret Sel Sect SPDR ETF (XLY
 VNQ,Vanguard Real Estate ETF (VNQ
 XLB,Materials Select Sector SPDR ETF (XLB
 XLI,Industrial Select Sector SPDR ETF (XLI
-KBWB,KBW bank index ETF
+^NDX,Nasdaq 100 comp
+W5000,Wilshire 5000 ttl mkt
+^BKX,Bank seg index
+^IXIC,Nasdaq comp
+^VXN,CBOE nasdaq 100 vix
+^XOI,NY arca oil gas index
+^NYA,NYSE composite
+^DJI,Dow Jones Ind Ave
+^RUT,Russell 2000
+^GSPC,SP500
+^W1DOW,Dow Jones Global index
+DAX,Global X DAX Germany ETF
+EMB,iShare JP Morgan USD em mkt bond ETF
+HYG,iShare iBoxx high yield corp bond ETF
+^VIX3M,CBOE SP 500 3month vix
+^E1DOW,dow jones EU index
+^N225,Nikkei 225
+^DJSH,dow jones shanghai index
+TIP,iShare TIPS bond ETF

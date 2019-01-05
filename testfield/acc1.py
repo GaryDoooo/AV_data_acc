@@ -7,6 +7,7 @@ import numpy as np
 import time
 import os
 import logging
+import yaoshi
 
 TIME_OUT = 3  # time out sec = TIME_OUT * TIME_WAIT sec
 TIME_WAIT = 120
@@ -19,10 +20,7 @@ def print_log(message):
     print(message)
 
 
-def read_stock_AV(symbol='QQQ', interval='5min', outputsize='compact'):
-    keys = ['EYDTQCC46AZBZH20', 'Q0GC0ZMPBB7GFHTL',
-            'EJ69MPM068NGTJ30', 'XTLCDXQK9034JC9S',
-            '8KZI0IZQ3UVXJ589', 'KDXMV58WTWWABHKB']
+def read_stock_AV(keys, symbol='QQQ', interval='5min', outputsize='compact'):
     ts = TimeSeries(key=keys[np.random.randint(len(keys))],
                     output_format='pandas', indexing_type='date')
     result = None
@@ -79,9 +77,10 @@ def dispatch(ticker_csv,
                         level=logging.INFO)
 
     ticker_list = pd.read_csv(ticker_csv, sep=',')
+    key = yaoshi.yaoshi()
 
     for ticker in ticker_list['Ticker']:
-        df = read_stock_AV(symbol=ticker, interval=interval,
+        df = read_stock_AV(keys=key.avkeys, symbol=ticker, interval=interval,
                            outputsize=readsize)
         if df is not None:
             print("=============================",

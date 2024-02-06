@@ -1,0 +1,67 @@
+Ticker,note
+QQQ,PowerShares QQQ Trust 1x growth
+^VIX,CBOE Volatility Index 
+FAS,3x bull finance and bank
+MIDU,3x bull mid size 
+AAPL,apple
+GOOG,google
+^GSPC,S&P 500
+^DJI,Dow Jones Industrial Average (^DJI)
+^TNX,CBOE Interest Rate 10 Year T No (^TNX)
+MSFT,Microsoft
+^VXGOG,CBOE VIX on Google
+^VXAPL,CBOE VIX on Apple
+^VXGS,Cboe Equity VIX on Goldman Sachs
+^VXAZN,Cboe Equity VIX on Amazon
+^VXIBM,Cboe Equity VIX on IBM
+GS,The Goldman Sachs Group
+IBM,International Business Machines Corporation
+FB,Facebook
+^TYVIX,VXTY-Cboe/CBOT 10-Year U.S. Treasury Note Volatility Index
+SPY,SPDR S&P 500 ETF Trust
+GOOGL,Alphabet Inc. (GOOGL)
+JPM,JPMorgan Chase 
+JNJ,Johnson Johnson (JNJ)
+BAC,Bank of America Corporation
+V,Visa Inc Class A
+WFC,Wells Fargo 
+MA,Mastercard Inc
+C,Citigroup Inc
+PYPL,PayPal Holdings Inc
+OIL,GSCI Crude Oil ETN
+DX-Y.NYB,US Dollar Index Futures Cash
+GLD,SPDR Gold Shares
+UUP,Invesco DB US Dollar Bullish
+SHY,iShares 1-3 Year Treasury Bond ETF
+SHV,iShares Short Treasury Bond ETF
+IEF,iShares 7-10 Year Treasury Bond ETF
+^IRX,Options on the short-term rate
+^FVX,Options on the 5-year rate
+^TYX,Options on the 30-year rate
+SQQQ,3X bear QQQ
+TQQQ,3X bull QQQ
+^VXX,iPATH S&P 500 VIX Short-Term Futures ETN
+^VXZ,iPath S&P 500 VIX Mid-Term Future
+IYE,iShares US Energy ETF (IYE)
+IYY,iShares Dow Jones US ETF (IYY)
+IYF,iShares US Financials ETF (IYF)
+IYR,iShares US Real Estate ETF (IYR)
+IYW,iShares US Technology ETF (IYW)
+IYT,iShares Transportation Average ETF (IYT)
+PEJ,PowerShares Dynamic Leisure & Entmnt ETF
+USO,United States Oil
+DBC,Invesco DB Commodity Tracking (DBC)
+GSG,iShares S&P GSCI Commodity-Indexed Trust (GSG)
+VTI,Vanguard Total Stock Market ETF (VTI)
+^RUT,Russell 2000 (^RUT)
+FDN,First Trust Dow Jones Internet ETF (FDN)
+XLV,Health Care Select Sector SPDR ETF (XLV
+IBB,iShares Nasdaq Biotechnology ETF (IBB
+KRE,SPDR S&P Regional Banking ETF (KRE)
+KBE,SPDR S&P Bank ETF (KBE
+XLF,Financial Select Sector SPDR ETF (XLF)
+XLP,Consumer Staples Select Sector SPDR ETF (XLP
+XLY,Consumer Discret Sel Sect SPDR ETF (XLY
+VNQ,Vanguard Real Estate ETF (VNQ
+XLB,Materials Select Sector SPDR ETF (XLB
+XLI,Industrial Select Sector SPDR ETF (XLI

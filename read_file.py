@@ -1,4 +1,4 @@
-import pandas
+# import pandas
 import pickle
 import bz2
 
@@ -13,3 +13,4 @@ def read_data(symbol, filepath="data/", fileprefix=""):
 
 if __name__ == "__main__":
     print(read_data('AAPL')) 
+    print(read_data('QQQ')) 

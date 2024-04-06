@@ -1,0 +1,31 @@
+# Doing this all the remote history is still there.
+# So, no need to backup
+
+# -- Remove the history from 
+
+rm -rf .git
+
+# -- recreate the repos from the current content only
+
+git init
+
+# here is to switch all the future push to a new branch
+
+git checkout -b NEW_BRANCH_NAME  
+
+# all the gpush or other commands are same as before
+
+git add .
+git commit -m "Initial commit"
+
+# -- push to the github remote repos ensuring you overwrite history
+
+
+# push it to the new branch
+# the git URL is in config (.git/config)
+
+git remote add NEW_BRANCH_NAME git@github.com:<YOUR ACCOUNT>/<YOUR REPOS>.git
+
+# git will promote this command
+
+git push --set-upstream NEW_BRANCH_NAME NEW_BRANCH_NAME    

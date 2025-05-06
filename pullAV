@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /home/du/code/AV_data_acc && ./runME.exe --readsize=full 
+# && git add * && git commit -m "cron" && git push
+

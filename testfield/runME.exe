@@ -1,0 +1,13 @@
+#!/bin/bash
+
+sudo sysctl net.ipv4.ip_forward=1
+
+cmd='sudo pip install alpha_vantage && cd /home/du/code && sudo python3 /home/du/code/acc1.py '"$@"
+echo $cmd 
+
+docker run -v $(pwd):/home/du/code --user du:du runtime /bin/bash -c \
+	"$cmd" && \
+	echo "Success for docker run."
+
+sudo chown -R du:du * && echo "Success chown all files."
+

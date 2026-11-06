@@ -1,0 +1,9 @@
+#!/bin/bash
+
+curl -s --user 'api:14b99305493aea3b0f7511fa51735bbd-3939b93a-7efc60bf' \
+    https://api.mailgun.net/v3/sandbox1095c9b00df64518908651a17bc48af2.mailgun.org/messages \
+        -F from='Mailgun Sandbox <postmaster@sandbox1095c9b00df64518908651a17bc48af2.mailgun.org>' \
+        -F to='gdu@gmx.us' \
+        -F subject='Hello' \
+        -F text='attached something' \
+	-F attachment=@$1
